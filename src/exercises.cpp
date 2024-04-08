@@ -14,6 +14,22 @@ void exercise_2(string s1) {
 
 void exercise_3(string s1) {
   // TODO: YOUR CODE HERE
+  int x;
+	for(int i=1; i<=10 ;i++)
+	{
+	cin>>x;
+	if (x==1)
+		{
+		cout<< "Om-nom-nom :P\n"; 
+		}
+	else
+		{
+		cout<<"No cake :(\n";
+		break;
+		}
+	}
+	
+	return 0;
 }
 
 void exercise_4(int n) {
