@@ -81,8 +81,9 @@ long exercise_13(int n, int k) {
 		aux=aux+suma;
 	}
 	cout<<aux;
-  
+
 	return 0;
+}
 }
 
 string exercise_14(int n) {
@@ -95,7 +96,7 @@ void exercise_15(int decimal) {
 }
 
 void exercise_16(int divident, int divider) {
-  // TODO: YOUR CODE HERE
+  // TODO: YOUR CODE HERE                     
 }
 
 void exercise_17(int n) {
