@@ -42,8 +42,14 @@ void exercise_5(int n, int k) {
 }
 
 int exercise_6(int n) {
-  // TODO: YOUR CODE HERE
-  return 0;
+  cin>>n;
+  int res, acum = 0;
+  while(n=!0){
+    res=n%10;
+    acum=res+acum;
+    n=n/10;
+  }
+  cout<<acum<<"\n";
 }
 
 void exercise_7(int n) {
