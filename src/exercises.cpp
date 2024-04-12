@@ -21,11 +21,11 @@ void exercise_4(int n) {
 	cin>>n;
 	if(n<0)
 	{
-		cout<<"El numero es negativo. Intentelo de nuevo";
+		cout<<"El numero es negativo. Intentelo de nuevo\n";
 	}
 	else if(n>14)
 	{
-		cout<<"El numero es muy grande. Intentelo de nuevo";
+		cout<<"El numero es muy grande. Intentelo de nuevo\n";
 	}
 	else
 	{
