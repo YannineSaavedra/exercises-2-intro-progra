@@ -70,7 +70,7 @@ void exercise_12() {
 
 long exercise_13(int n, int k) {
   {
-	int N,k,suma,aux=0;
+	int N=5,k=2,suma,aux=0;
 	cin>>N>>k;
 	for(int numero=1;numero<=N;numero++)
 	{
