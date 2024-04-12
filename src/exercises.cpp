@@ -14,21 +14,6 @@ void exercise_2(string s1) {
 
 void exercise_3(string s1) {
   // TODO: YOUR CODE HERE
-  cin <<s1;
-  int x;
-	for(int i=1; i<=10 ;i++)
-	{
-	cin>>x;
-	if (x==1)
-		{
-		cout<< "Om-nom-nom :P\n"; 
-		}
-	else
-		{
-		cout<<"No cake :(\n";
-		break;
-		}
-	}
 }
 
 void exercise_4(int n) {
