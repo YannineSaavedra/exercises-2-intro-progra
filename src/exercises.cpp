@@ -17,7 +17,24 @@ void exercise_3(string s1) {
 }
 
 void exercise_4(int n) {
-  // TODO: YOUR CODE HERE
+  int x=1;
+	cin>>n;
+	if(n<0)
+	{
+		cout<<"El numero es negativo. Intentelo de nuevo\n";
+	}
+	else if(n>14)
+	{
+		cout<<"El numero es muy grande. Intentelo de nuevo\n";
+	}
+	else
+	{
+		for(int i=1;i<=n;i++)
+		{
+		x=x*(i);
+		}
+	cout<<x<<"\n";
+	}
 }
 
 void exercise_5(int n, int k) {
@@ -25,8 +42,16 @@ void exercise_5(int n, int k) {
 }
 
 int exercise_6(int n) {
-  // TODO: YOUR CODE HERE
-  return 0;
+  int residuo,suma=0;
+	cout<<"Ingrese el numero que quiera descomponer y sumar\n";
+	cin>>n;
+	while(n!=0)
+	{
+		residuo=n%10;
+		suma=residuo+suma;
+		n=n/10;
+	}
+	return suma;
 }
 
 void exercise_7(int n) {
