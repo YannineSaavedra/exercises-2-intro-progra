@@ -14,7 +14,8 @@ void exercise_2(string s1) {
 
 void exercise_3(string s1) {
   // TODO: YOUR CODE HERE
-  cin s1;
+  cin <<s1;
+  int x;
 	for(int i=1; i<=10 ;i++)
 	{
 	cin>>x;
