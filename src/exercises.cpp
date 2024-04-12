@@ -28,9 +28,6 @@ void exercise_3(string s1) {
 		break;
 		}
 	}
-}
-  
-	
 	return 0;
 }
 
