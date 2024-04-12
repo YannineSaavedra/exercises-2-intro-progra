@@ -33,7 +33,7 @@ void exercise_4(int n) {
 		{
 		x=x*(i);
 		}
-	cout<<x<<"/n";
+	cout<<x<<"\n";
 	}
 }
 
