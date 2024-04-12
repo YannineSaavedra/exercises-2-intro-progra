@@ -14,7 +14,7 @@ void exercise_2(string s1) {
 
 void exercise_3(string s1) {
   // TODO: YOUR CODE HERE
-  int x;
+  cin s1;
 	for(int i=1; i<=10 ;i++)
 	{
 	cin>>x;
@@ -31,7 +31,24 @@ void exercise_3(string s1) {
 }
 
 void exercise_4(int n) {
-  // TODO: YOUR CODE HERE
+  int x=1;
+	cin>>n;
+	if(n<0)
+	{
+		cout<<"El numero es negativo. Intentelo de nuevo";
+	}
+	else if(n>14)
+	{
+		cout<<"El numero es muy grande. Intentelo de nuevo";
+	}
+	else
+	{
+		for(int i=1;i<=n;i++)
+		{
+		x=x*(i);
+		}
+	cout<<x;
+	}
 }
 
 void exercise_5(int n, int k) {
@@ -70,7 +87,7 @@ void exercise_12() {
 
 long exercise_13(int n, int k) {
   {
-	int N=5,k=2,suma,aux=0;
+	int N,k,suma,aux=0;
 	cin>>N>>k;
 	for(int numero=1;numero<=N;numero++)
 	{
