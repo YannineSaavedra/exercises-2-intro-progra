@@ -72,8 +72,17 @@ void exercise_12() {
 }
 
 long exercise_13(int n, int k) {
-  // TODO: YOUR CODE HERE
-  return 0;
+  {
+	int N,k,suma,aux=0;
+	cin>>N>>k;
+	for(int numero=1;numero<=N;numero++)
+	{
+		suma=pow(numero,k);
+		aux=aux+suma;
+	}
+	cout<<aux;
+  
+	return 0;
 }
 
 string exercise_14(int n) {
