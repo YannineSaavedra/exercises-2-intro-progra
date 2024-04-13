@@ -35,8 +35,7 @@ void exercise_4(int n) {
 		}
 	cout<<x<<"\n";
 	}
-}
-
+} 
 void exercise_5(int n, int k) {
   // TODO: YOUR CODE HERE
 }
