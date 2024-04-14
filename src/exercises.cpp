@@ -70,9 +70,14 @@ void exercise_9(string s) {
 }
 
 int exercise_10(int a, int b) {
-  int mcm=1;
+  int mcm=1,nm;
 	cin>>a>>b;
-	for(int n=1;n<=b;n++)
+  nm=a;
+  if(b<a)
+  {
+    nm=b;
+  }
+	for(int n=1;n<=nm;n++)
 	{
 		if((a%n==0)and(b%n==0))
 		{
