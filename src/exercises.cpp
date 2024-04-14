@@ -83,7 +83,12 @@ int exercise_10(int a, int b) {
 }
 
 void exercise_11() {
-  // TODO: YOUR CODE HERE
+  float U=1;
+	for(int n=0;n<=10;n++)
+	{
+		cout<<"U"<<n<<" = "<<U<<endl;
+		U=U/(n+1);
+	}
 }
 
 void exercise_12() {
