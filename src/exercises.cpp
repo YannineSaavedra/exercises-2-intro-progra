@@ -72,7 +72,7 @@ void exercise_9(string s) {
 int exercise_10(int a, int b) {
   int mcm=1;
 	cin>>a>>b;
-	for(int n=1;n<=a;n++)
+	for(int n=1;n<=b;n++)
 	{
 		if((a%n==0)and(b%n==0))
 		{
