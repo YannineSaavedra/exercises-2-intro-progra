@@ -70,7 +70,7 @@ void exercise_9(string s) {
 }
 
 int exercise_10(int a, int b) {
-  int a,b,mcm=1;
+  int mcm=1;
 	cin>>a>>b;
 	for(int n=1;n<=a;n++)
 	{
