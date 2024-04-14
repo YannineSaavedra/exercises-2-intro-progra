@@ -105,13 +105,12 @@ void exercise_12() {
 		cout<<"U"<<n<<" = "<<U<<" V"<<n<<" = "<<V<<endl;
 		U=U/(n+1);
 	}
-	return 0;
 }
 
 long exercise_13(int n, int k) {
-	int N,k,suma,aux=0;
-	cin>>N>>k;
-	for(int numero=1;numero<=N;numero++)
+	int suma,aux=0;
+	cin>>n>>k;
+	for(int numero=1;numero<=n;numero++)
 	{
 		suma=pow(numero,k);
 		aux=aux+suma;
