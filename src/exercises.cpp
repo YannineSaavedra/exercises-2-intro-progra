@@ -108,14 +108,14 @@ void exercise_12() {
 }
 
 long exercise_13(int n, int k) {
-	int suma,aux=0;
+	long suma,aux=0;
 	cin>>n>>k;
 	for(int numero=1;numero<=n;numero++)
 	{
 		suma=pow(numero,k);
 		aux=aux+suma;
 	}
-	cout<<aux;
+	return aux;
 }
 
 
