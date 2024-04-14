@@ -51,7 +51,14 @@ int exercise_6(int n) {
 }
 
 void exercise_7(int n) {
-  // TODO: YOUR CODE HERE
+	double acum=0,op;
+	cin>>n;
+	for(int i=1;i<=n;i++)
+	{
+		op=(pow(-1,i+1))/i;
+		acum=acum+op;
+	}
+	cout<<acum<<"\n";
 }
 
 void exercise_8(string s) {
