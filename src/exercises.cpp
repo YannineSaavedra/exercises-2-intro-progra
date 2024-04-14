@@ -13,14 +13,7 @@ void exercise_2(string s1) {
 }
 
 void exercise_3(string s1) {
-  for(int i = 0; i <= 10; ++i){
-    if(s1[i] == '1'){
-      cout << "Om-nom-nom :P" << endl;
-    } else if(s1[i] == '0'){
-      cout << "No cake :(" << endl;
-      break;
-    }
-  }
+  
 }
 
 void exercise_4(int n) {
@@ -104,11 +97,18 @@ void exercise_11() {
 }
 
 void exercise_12() {
-  // TODO: YOUR CODE HERE
+  float U=1;
+	int V=0;
+	for(int n=1;n<=10;n++)
+	{
+		V=V+U;
+		cout<<"U"<<n<<" = "<<U<<" V"<<n<<" = "<<V<<endl;
+		U=U/(n+1);
+	}
+	return 0;
 }
 
 long exercise_13(int n, int k) {
-  {
 	int N,k,suma,aux=0;
 	cin>>N>>k;
 	for(int numero=1;numero<=N;numero++)
@@ -117,10 +117,8 @@ long exercise_13(int n, int k) {
 		aux=aux+suma;
 	}
 	cout<<aux;
+}
 
-	return 0;
-}
-}
 
 string exercise_14(int n) {
   // TODO: YOUR CODE HERE
