@@ -124,8 +124,18 @@ string exercise_14(int n) {
   return "";
 }
 
-void exercise_15(int decimal) {
-  // TODO: YOUR CODE HERE
+void exercise_15(int decimal) {	
+	cin>>decimal;
+	int res,mult=1,aux=0;
+	while(decimal!=0)
+	{
+		res=decimal%2;
+		res=res*mult;
+		mult=mult*10;
+		decimal=decimal/2;
+		aux=aux+res;	
+	}	
+	cout<<aux<<"/n";
 }
 
 void exercise_16(int divident, int divider) {
