@@ -135,7 +135,7 @@ void exercise_15(int decimal) {
 		decimal=decimal/2;
 		aux=aux+res;	
 	}	
-	cout<<aux<<"/n";
+	cout<<aux<<"\n";
 }
 
 void exercise_16(int divident, int divider) {
