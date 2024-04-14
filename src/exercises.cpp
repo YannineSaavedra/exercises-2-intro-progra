@@ -78,7 +78,7 @@ int exercise_10(int a, int b) {
 		{
 			mcm=n;
 		}
-	}	
+	}
 	return mcm;
 }
 
