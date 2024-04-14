@@ -70,8 +70,16 @@ void exercise_9(string s) {
 }
 
 int exercise_10(int a, int b) {
-  // TODO: YOUR CODE HERE
-  return 0;
+  int a,b,mcm=1;
+	cin>>a>>b;
+	for(int n=1;n<=a;n++)
+	{
+		if((a%n==0)and(b%n==0))
+		{
+			mcm=n;
+		}
+	}	
+	return mcm;
 }
 
 void exercise_11() {
