@@ -95,7 +95,6 @@ void exercise_11() {
 		U=U/(n+1);
 	}
 }
-
 void exercise_12() {
   float U=1;
 	int V=0;
