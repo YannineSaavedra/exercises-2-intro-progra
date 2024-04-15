@@ -5,8 +5,16 @@
 using namespace std;
 
 void exercise_1(string s1) {
-  // TODO: YOUR CODE HERE
+  int i = 0;
+  while(i < s1.size()){
+    if (s1[i] == ' '){
+      cout << i << endl;
+    }
+  ++i;
+  }
+  cout << i << endl;
 }
+
 
 void exercise_2(string s1) {
   // TODO: YOUR CODE HERE
