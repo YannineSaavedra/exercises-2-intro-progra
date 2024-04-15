@@ -195,22 +195,33 @@ int contador=0;
 
 
 int exercise_10(int a, int b) {
-  int mcm=1,nm;
-	cin>>a>>b;
-  nm=a;
-  if(b<a)
-  {
-    nm=b;
+  if (a>0 && b> 0 && a!=b){
+  if(a>b){
+    int aux = a;
+    a=b;
+    b=aux;
+    }
+    int i=a;
+    while (i>=1){
+      if (a % i == 0 && b % i == 0){
+        return i;
+        break;
+        }
+        else{
+          i -= 1;
+    } 
   }
-	for(int n=1;n<=nm;n++)
-	{
-		if((a%n==0)and(b%n==0))
-		{
-			mcm=n;
-		}
-	}
-	return mcm;
+ }
+ else{   
+     if (a>b){
+        return a; 
+     }
+     else if (a<b){
+        return b; 
+     }
+ }
 }
+
 
 void exercise_11() {
   float U=1;
