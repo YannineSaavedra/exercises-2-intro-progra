@@ -307,7 +307,25 @@ void exercise_16(int divident, int divider) {
 }                         
 
 void exercise_17(int n) {
-  // TODO: YOUR CODE HERE
+  int num=2,cont,i=1;
+	cin>>n;
+	while(n>=i)
+	{
+		cont=0;
+		for(int j=1;j<=num;j++)
+		{
+			if(num%j==0)
+			{
+				cont++;
+			}
+		}
+		if(cont==2)
+		{
+			cout<<num<<" ";
+			i++;
+		}
+		num=num+1;
+	}
 }
 
 void exercise_18_19(int debut, int fin) {
