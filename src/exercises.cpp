@@ -108,8 +108,16 @@ void exercise_12() {
 }
 
 long exercise_13(int n, int k) {
-	
+	long suma,aux=0;
+	cin>>n>>k;
+	for(int numero=1;numero<=n;numero++)
+	{
+		suma=pow(numero,k);
+		aux=aux+suma;
+	}
+	return aux;
 }
+	
 
 
 string exercise_14(int n) {
