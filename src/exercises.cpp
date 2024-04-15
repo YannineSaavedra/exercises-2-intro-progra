@@ -171,35 +171,8 @@ int contador=0;
    }
 }
 
-int exercise_10(int a, int b) {
-if (a>0 && b> 0 && a!=b){
-  if(a>b){
-    int aux = a;
-    a=b;
-    b=aux;
-    }
-    int i=a;
-    while (i>=1){
-      if (a % i == 0 && b % i == 0){
-        return i;
-        break;
-        }
-        else{
-          i -= 1;
-    } 
-  }
- }
- else{   
-     if (a>b){
-        return a; 
-     }
-     else if (a<b){
-        return b; 
-     }
- }
-}
 
-int exercise_10 (int a, int b) {
+int exercise_10(int a, int b) {
   int mcm=1,nm;
 	cin>>a>>b;
   nm=a;
@@ -280,7 +253,7 @@ void exercise_15(int decimal) {
 	
 
 void exercise_16(int divident, int divider) {
- if (divider == 0){
+  if (divider == 0){
     cout << "";
     } 
   else{
@@ -290,8 +263,8 @@ void exercise_16(int divident, int divider) {
     res = divident%divider;
     cout << cosi << " ";
     cout << res << endl;
-    }                   
-}           
+    }
+}                         
 
 void exercise_17(int n) {
   // TODO: YOUR CODE HERE
