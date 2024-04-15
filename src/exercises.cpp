@@ -13,6 +13,7 @@ void exercise_2(string s1) {
 }
 
 void exercise_3(string s1) {
+
   
 }
 
@@ -121,9 +122,18 @@ long exercise_13(int n, int k) {
 
 
 string exercise_14(int n) {
-  // TODO: YOUR CODE HERE
-  
+  string s = to_string(n);
+  string reversed;
+  for(int i = s.size() - 1; i >= 0; --i){
+    reversed +=s[i];
+  }
+  if(reversed == s){
+    return "Es palindrome";
+  } else {
+    return "No es palindrome";   
+  }
 }
+  
 
 void exercise_15(int decimal) {	
 	cin>>decimal;
