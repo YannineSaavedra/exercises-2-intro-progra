@@ -108,14 +108,7 @@ void exercise_12() {
 }
 
 long exercise_13(int n, int k) {
-	long suma,aux=0;
-	cin>>n>>k;
-	for(int numero=1;numero<=n;numero++)
-	{
-		suma=pow(numero,k);
-		aux=aux+suma;
-	}
-	return aux;
+	
 }
 
 
@@ -125,29 +118,11 @@ string exercise_14(int n) {
 }
 
 void exercise_15(int decimal) {	
-	cin>>decimal;
-	int res,mult=1,aux=0;
-	while(decimal!=0)
-	{
-		res=decimal%2;
-		res=res*mult;
-		mult=mult*10;
-		decimal=decimal/2;
-		aux=aux+res;	
-	}	
-	cout<<aux<<"\n";
+	
 }
 
 void exercise_16(int divident, int divider) {
-  int cociente=0,residuo;
-	cin>>divident>>divider;
-	while(divident>=divider)
-	{
-		divident=divident-divider;
-		cociente=cociente+1;
-		residuo=divident;
-	}
-	cout<<cociente<<residuo;                     
+                 
 }
 
 void exercise_17(int n) {
