@@ -38,17 +38,64 @@ void exercise_4(int n) {
 	}
 } 
 void exercise_5(int n, int k) {
-  int residuo,suma=0;
-	cout<<"Ingrese el numero que quiera descomponer y sumar\n";
-	cin>>n;
-	while(n!=0)
-	{
-		residuo=n%10;
-		suma=residuo+suma;
-		n=n/10;
-	}
-	cout<<suma;
+	string espacio1;
+    switch(n){
+        case 1:
+            espacio1 =  " "s;
+            break;
+        case 2:
+            espacio1 =  "  "s;
+            break;
+        case 3:
+            espacio1 =  "     "s;
+            break;
+        case 4:
+            espacio1 =  "        "s;
+            break;
+        case 5:
+            espacio1 =  "           "s;
+            break;
+        case 6:
+            espacio1 =  "              "s;
+            break;
+        case 7:
+            espacio1 =  "                 "s;
+            break;
+    }
+    
+    string _i;
+    for(int i = 1; i<=k; ++i){
+        int s = 20;
+        int r = 0;
+        while(r<=14){
+            if(espacio1.size()== s+(s*r) + r){
+                espacio1= espacio1 + '\n';
+                break;
+            }
+            ++r;
+        }
+        if(n==1 && espacio1.size()==1){
+            espacio1 = espacio1 + to_string(i);
+        }
+        else if(to_string(i).size()==1 && espacio1[espacio1.size()-1]!='\n'){
+            _i = "  " + to_string(i);
+            espacio1 = espacio1 + _i;
+        }else if(to_string(i).size()==1 && espacio1[espacio1.size()-1]=='\n'){
+            _i = " " + to_string(i);
+            espacio1 = espacio1 + _i;
+        
+        }else if(to_string(i).size()==2 && espacio1[espacio1.size()-1]!='\n'){
+            _i = " " + to_string(i);
+            espacio1 = espacio1 + _i;
+        }else if(to_string(i).size()==2 && espacio1[espacio1.size()-1]=='\n'){
+            espacio1 = espacio1 + to_string(i);
+        }
+        
+    }
+    cout << espacio1 << " " << endl;
 }
+
+
 
 int exercise_6(int n) {
   int res, sum = 0;
