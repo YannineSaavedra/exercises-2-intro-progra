@@ -50,7 +50,6 @@ void exercise_5(int n, int k) {
 	cout<<suma;
 	return 0;
 }
-}
 
 int exercise_6(int n) {
   int res, sum = 0;
