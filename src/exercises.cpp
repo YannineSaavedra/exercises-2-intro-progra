@@ -48,7 +48,6 @@ void exercise_5(int n, int k) {
 		n=n/10;
 	}
 	cout<<suma;
-	return 0;
 }
 
 int exercise_6(int n) {
