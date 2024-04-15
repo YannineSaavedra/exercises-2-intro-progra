@@ -199,8 +199,7 @@ if (a>0 && b> 0 && a!=b){
  }
 }
 
-
-int exercise_10(int a, int b) {
+int exercise_10 (int a, int b) {
   int mcm=1,nm;
 	cin>>a>>b;
   nm=a;
