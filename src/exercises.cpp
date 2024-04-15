@@ -17,8 +17,22 @@ void exercise_1(string s1) {
 
 
 void exercise_2(string s1) {
-  // TODO: YOUR CODE HERE
+string word;
+  int i = 0;
+  while (i < s1.size()){
+    if(s1[i] == ' '){
+      cout << "[" << word << "]" << endl;
+      word = "";
+    } else {
+      word += s1[i];
+    }
+  ++i;
+  }
+  if (word.size() > 0){
+    cout << "[" << word << "]" << endl;
+  }
 }
+
 
 void exercise_3(string s1) {
 
