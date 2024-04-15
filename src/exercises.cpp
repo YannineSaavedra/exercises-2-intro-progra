@@ -106,7 +106,6 @@ void exercise_12() {
 		U=U/(n+1);
 	}
 }
-
 long exercise_13(int n, int k) {
 	long suma,aux=0;
 	cin>>n>>k;
