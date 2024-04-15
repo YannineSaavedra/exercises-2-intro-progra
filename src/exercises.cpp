@@ -35,8 +35,14 @@ string word;
 
 
 void exercise_3(string s1) {
-
-  
+ for(int i = 0; i <= 19; ++i){
+    if(s1[i] == '1'){
+      cout << "Om-nom-nom :P" << endl;
+    } else if(s1[i] == '0'){
+      cout << "No cake :(" << endl;
+      break;
+    }
+  }
 }
 
 void exercise_4(int n) {
@@ -121,13 +127,14 @@ void exercise_5(int n, int k) {
 
 int exercise_6(int n) {
   int res, sum = 0;
-  while (n != 0){
+  while (n != a){
     res = n % 10;
     sum = res + sum;
     n = n / 10;
   }
   return sum;
 }
+
 
 void exercise_7(int n) {
 	double acum=0,op;
