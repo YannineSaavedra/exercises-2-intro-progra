@@ -150,8 +150,7 @@ void exercise_16(int divident, int divider) {
 		residuo=divident;
 	}
 	cout<<cociente<<residuo;                     
-}                 
-}
+}           
 
 void exercise_17(int n) {
   // TODO: YOUR CODE HERE
