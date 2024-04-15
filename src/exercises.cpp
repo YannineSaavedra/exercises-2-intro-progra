@@ -38,7 +38,18 @@ void exercise_4(int n) {
 	}
 } 
 void exercise_5(int n, int k) {
-  // TODO: YOUR CODE HERE
+  int residuo,suma=0;
+	cout<<"Ingrese el numero que quiera descomponer y sumar\n";
+	cin>>n;
+	while(n!=0)
+	{
+		residuo=n%10;
+		suma=residuo+suma;
+		n=n/10;
+	}
+	cout<<suma;
+	return 0;
+}
 }
 
 int exercise_6(int n) {
